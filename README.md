@@ -11,8 +11,6 @@ This project implements a neural network using PyTorch to classify handwritten d
    - [Testing the Model](#testing-the-model)
    - [Testing the Model with a Specific Image](#testing-the-model-with-a-specific-image)
 4. [Source](#source)
-5. [Contributing](#contributing)
-6. [License](#license)
 
 ## Requirements
 
@@ -22,12 +20,12 @@ Make sure you have the required dependencies listed in the `requirements.txt` fi
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/your-repository.git
+    git clone https://github.com/markshperkin/MNIST.git
     ```
 
 2. Navigate into the project directory:
     ```bash
-    cd your-repository
+    cd MNIST
     ```
 
 3. Install the required packages:
@@ -43,3 +41,28 @@ To train the model, run the `train_model.py` script. This script will allow you 
 
 ```bash
 python train_model.py
+```
+
+### 2. Testing the Model
+
+After training, you can test the model's performance on the MNIST validation dataset. Use the test_model.py script for this.
+
+```bash
+python test_model.py
+```
+
+The script will ask for the name of the model file that you want to test. Make sure to provide the correct filename (e.g., mnist_model.pt).
+
+### 3. Testing the Model with a Specific Image
+
+You can also test the model on a specific image by using the test_model_with_input.py script. This script allows you to pass an image file as an argument, and the model will attempt to classify the digit.
+
+```bash
+python test_model_with_input.py path/to/your/image.png
+```
+The program should convert your image to the required format.
+
+### Source
+
+This project is based on the tutorial provided by Towards Data Science, which demonstrates how to build a neural network using PyTorch for digit classification.
+

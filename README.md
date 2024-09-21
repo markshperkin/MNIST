@@ -62,7 +62,7 @@ python test_model_with_input.py path/to/your/image.png
 ```
 The program should convert your image to the required format.
 
-### Source
+## Source
 
 This project is based on the tutorial provided by Towards Data Science, which demonstrates how to build a neural network using PyTorch for digit classification.
 

@@ -42,6 +42,9 @@ To train the model, run the `train_model.py` script. This script will allow you 
 ```bash
 python train_model.py
 ```
+### Training the Model with Adam Optimizer
+
+To train the model with Adam optimizer, change line 58 ('optimizer = optim.SGD(model.parameters(), lr=0.003, momentum=0.9)') with 'optimizer = Adam(model.parameters(), lr=0.001, betas=(0.9, 0.999))'. and follow the instructions on training the model.
 
 ### 2. Testing the Model
 

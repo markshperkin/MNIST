@@ -71,6 +71,6 @@ The program should convert your image to the required format.
 ## Source
 
 This project is based on the tutorial provided by [Towards Data Science](https://towardsdatascience.com/handwritten-digit-mnist-pytorch-977b5338e627), which demonstrates how to build a neural network using PyTorch for digit classification.
-Adam optimizer was obtained from [Complete Guide to the Adam Optimization Algorithm]([https://towardsdatascience.com/handwritten-digit-mnist-pytorch-977b5338e627](https://builtin.com/machine-learning/adam-optimization))
+Adam optimizer was obtained from [Complete Guide to the Adam Optimization Algorithm]([https://towardsdatascience.com/handwritten-digit-mnist-pytorch-977b5338e627](https://builtin.com/machine-learning/adam-optimization)
 
 

@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from torchvision import datasets, transforms
 from torch import nn, optim
 from time import time
+from torch.optim import adam # Importing Adam optimizer
 
 # Define transformations: Convert images to tensors and normalize them
 transform = transforms.Compose([transforms.ToTensor(),
@@ -54,11 +55,11 @@ criterion = nn.NLLLoss()
 # logps = model(images) #log probabilities
 # loss = criterion(logps, labels) #calculate the NLL loss
 
-# Define optimizer who performs gradient descent and updates the weights over the training set
-optimizer = optim.SGD(model.parameters(), lr=0.003, momentum=0.9)
+# Define optimizer who performs gradient descent and updates the weights over the training set.
+optimizer = optim.SGD(model.parameters(), lr=0.003, momentum=0.9) # Change this line to switch to Adam optimizer.
 
 # Train the model
-epochs = 15
+epochs = 30
 time0 = time()
 for e in range(epochs):
     running_loss = 0

@@ -44,7 +44,7 @@ python train_model.py
 ```
 ### Training the Model with Adam Optimizer
 
-To train the model with Adam optimizer, in train_model.py, change line 58 (' optimizer = optim.SGD(model.parameters(), lr=0.003, momentum=0.9) ') with:
+To train the model with Adam optimizer, in train_model.py, change line 59 (' optimizer = optim.SGD(model.parameters(), lr=0.003, momentum=0.9) ') with:
 ```bash
 optimizer = Adam(model.parameters(), lr=0.001, betas=(0.9, 0.999))
 ```

@@ -12,10 +12,6 @@ This project implements a neural network using PyTorch to classify handwritten d
    - [Testing the Model with a Specific Image](#testing-the-model-with-a-specific-image)
 4. [Source](#source)
 
-## Requirements
-
-Make sure you have the required dependencies listed in the `requirements.txt` file. These include essential libraries such as PyTorch, torchvision, and numpy.
-
 ### Installation
 
 1. Clone this repository to your local machine:
@@ -73,4 +69,7 @@ The program should convert your image to the required format.
 This project is based on the tutorial provided by [Towards Data Science](https://towardsdatascience.com/handwritten-digit-mnist-pytorch-977b5338e627), which demonstrates how to build a neural network using PyTorch for digit classification.
 Adam optimizer was obtained from [Complete Guide to the Adam Optimization Algorithm](https://builtin.com/machine-learning/adam-optimization)
 
+## Class Project
+
+This project was developed as part of the Neural Network class under the instruction of [Professor Vignesh Narayanan](https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/narayanan_vignesh.php) at the University of South Carolina.
 

@@ -2,16 +2,6 @@
 
 This project implements a neural network using PyTorch to classify handwritten digits from the MNIST dataset. The code allows you to train a model, test it on the validation dataset, and even test the model on a specific image of your choosing.
 
-## Table of Contents
-
-1. [Requirements](#requirements)
-2. [Installation](#installation)
-3. [Usage](#usage)
-   - [Training the Model](#training-the-model)
-   - [Testing the Model](#testing-the-model)
-   - [Testing the Model with a Specific Image](#testing-the-model-with-a-specific-image)
-4. [Source](#source)
-
 ### Installation
 
 1. Clone this repository to your local machine:
